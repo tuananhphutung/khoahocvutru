@@ -1,16 +1,16 @@
 
-import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import SolarSystem from './components/SolarSystem';
-import SpaceTech from './components/SpaceTech';
-import SkyAtlas from './components/SkyAtlas';
-import Multimedia from './components/Multimedia';
-import Community from './components/Community';
-import Newsletter from './components/Newsletter';
-import Footer from './components/Footer';
-import LiveStatus from './components/LiveStatus';
-import AISpaceModal from './components/AISpaceModal';
+import React, { useState } from 'react';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import SolarSystem from './components/SolarSystem.tsx';
+import SpaceTech from './components/SpaceTech.tsx';
+import SkyAtlas from './components/SkyAtlas.tsx';
+import Multimedia from './components/Multimedia.tsx';
+import Community from './components/Community.tsx';
+import Newsletter from './components/Newsletter.tsx';
+import Footer from './components/Footer.tsx';
+import LiveStatus from './components/LiveStatus.tsx';
+import AISpaceModal from './components/AISpaceModal.tsx';
 
 const App: React.FC = () => {
   const [showAI, setShowAI] = useState(false);
