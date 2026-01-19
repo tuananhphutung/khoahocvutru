@@ -1,0 +1,7 @@
+{
+  "name": "Vikiway Space Explorer",
+  "description": "A high-end, interactive space exploration platform featuring a real-time star atlas, planetary data, and cosmic intelligence powered by Gemini.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
